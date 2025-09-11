@@ -25,7 +25,7 @@ print("лучший язык")
 # Создай переменные x = 3.14 и y = -8, затем выведи строку: Координаты точки: x = 3.14; y = -8  используя F-строку.
 x = 3.14
 y = -8
-print(f"Координаты точки: x = {x}; y = -8")
+print(f"Координаты точки: x = {x}; y = {y}")
 # Запроси у пользователя его имя и возраст, затем выведи: Имя: Иван, Возраст: 25  используя F-строку.
 ###name = input()
 ###age = input()
@@ -96,7 +96,7 @@ print(not(0 < y < 5 or 10 < y < 15))
 # True or False and False
 print(True or False and False)
 # not False and True
-print(False or not True)
+print(not False and True)
 # False or not True and True
 print(False or not True and True)
 # not (10 > 5 or 3 < 1)
@@ -189,5 +189,5 @@ print(word[2:5])
 # Выведи строку, где все символы расположены в обратном порядке.
 print(word[::-1])
 # Выведи строку без первого и последнего символов.
-print(word[1:-2])
+print(word[1:-1])
 # """
